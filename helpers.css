@@ -1,16 +1,27 @@
+.elevation {
+  box-shadow: 2px 3px 5px  hsl(212, 45%, 89%);
+}
+
 .flex {
-    display: flex;
-  }
-  
-  .column {
-    flex-direction: column;
-  }
-  
-  .row {
-    flex-direction: row;
-  }
-  
-  .centered {
-    justify-content: center;
-    align-items: center;
-  }
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.centered {
+  align-items: center;
+}
+
+.j-center {
+  justify-content: center;
+}
+
+.j-around {
+  justify-content: space-around;
+}
+
+.round-25 {
+  border-radius: 25px;
+}
